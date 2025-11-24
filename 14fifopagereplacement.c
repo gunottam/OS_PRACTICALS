@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int pages[50], frame[10], n, f, i, j, k, flag, faults=0;
+    int pages[50], frame[100], n, f, i, j, k, flag, faults=0;
 
     printf("Enter number of pages: ");
     scanf("%d", &n);
